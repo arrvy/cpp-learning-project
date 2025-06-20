@@ -1,4 +1,5 @@
 #include <stdio.h>
+//we dont need to include stdbool.h if we dont play with boolean data type
 
 int main(){
     int a = 6.99; //the value at floating point are neglected
@@ -14,3 +15,5 @@ int main(){
     }
 
 }
+
+
