@@ -24,5 +24,7 @@ int main(){
 (maybe the adress), not the value of variable
  */    
     printf("Hasil dari kebalikannya adalah : %d\n dan variabel awal jadi : %d\n",&revnumbers,&numbers);
+
+    printf("Hasil Adress dari kebalikannya adalah : %p\n dan variabel awal jadi : %p\n",&revnumbers,&numbers); //pointer format specifier
     return 0;
 }
