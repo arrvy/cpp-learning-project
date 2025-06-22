@@ -1,0 +1,7 @@
+fruits = ["jambu","lemon","pepaya"]
+hewan = ("ayam",)
+
+fruits2 = fruits * 2
+hewan2 = hewan * 2
+
+print(fruits2, hewan2)
