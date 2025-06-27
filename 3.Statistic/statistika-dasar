@@ -1,0 +1,40 @@
+import math #for math
+
+def calc_modus():
+    pass
+def calc_median():
+    pass
+
+def calc_mean(x):
+    #print(type(x))
+    sum = 0
+    for i in x:
+        sum += i
+    
+    print(f"Rata Rata dari Data Adalah {sum/len(x)}") 
+
+
+def main():
+    x = [1,2,3,4,5,6,7,8]
+    mean = None
+    median = None
+    modus = None
+    print(x)
+    print("Jenis Perhitungan Statistik : \n")
+    print(  "1. Mean\n"
+            "2. Median\n"
+            "3. Modus\n")
+    select = int(input("Masukkan Jenis Perhitungan yang Diinginkan : "))
+
+    match select:
+        case 1:
+            calc_mean(x)
+        case 2:
+            pass
+        case 3:
+            pass
+        case _:
+            pass
+
+if __name__ == "__main__":
+    main()
